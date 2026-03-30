@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1480350369027588136/watYj-KiD3k0SYUGYKU1W8iUAMyp4zIymj4bwKGppFiU1-PbJMz0-w0sx24BhNPbWxYO';
+const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1485428722835390537/H5BsXADXLL90KGSsZbBtTUsBKlYx9At80KnieauybcGUFYdGgGF7JwTAV4Qt8cf7okvs';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
